@@ -748,7 +748,8 @@ a.work:hover,a.hire {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 770px;
 }
 .blog h3.heading,.services h3.heading{
 	color: #fff;
@@ -758,6 +759,9 @@ a.work:hover,a.hire {
 }
 .blog-grids,.project-grids {
     margin-top: 5em; 
+}
+.blog-grid1 {
+	margin-top: 2em;
 }
 .blog-grid1 p  {
     color: #999;
